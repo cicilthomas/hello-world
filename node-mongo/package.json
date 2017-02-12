@@ -1,0 +1,24 @@
+{
+  "name": "node-mongo",
+  "version": "0.1.0",
+  "description": "Node.js and MongoDb sample program. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+  },
+  "repository": {
+	    "type": "git",
+	    "url": "https://github.com/cicilthomas/hello-world"
+  },
+  "keywords": [
+    "node.js",
+    "eclipse",
+    "MongoDb"
+  ],
+  "author": "Cicil Thomas",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mongoose": "^4.8.2"
+  }
+}
