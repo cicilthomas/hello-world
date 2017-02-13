@@ -5,5 +5,4 @@ var requestHandlers = require("./server/requestHandlers");
 var handle = {}
 handle["/"] = requestHandlers.index;
 handle["/users"] = requestHandlers.users;
-
 server.start(router.route, handle);
