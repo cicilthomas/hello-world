@@ -4,22 +4,22 @@ import java.util.Map;
 
 public class LexResponse {
 	
-	private Map<String,String> sessionAttributes;	
+	private Map<String,Object> sessionAttributes;	
 	private DialogAction dialogAction;	
 	
 	public LexResponse() {}	
 
-	public LexResponse(Map<String, String> sessionAttributes,DialogAction dialogAction) {
+	public LexResponse(Map<String, Object> sessionAttributes,DialogAction dialogAction) {
 		super();
 		this.sessionAttributes = sessionAttributes;
 		this.dialogAction = dialogAction;
 	}
 
-	public Map<String, String> getSessionAttributes() {
+	public Map<String, Object> getSessionAttributes() {
 		return sessionAttributes;
 	}
 
-	public void setSessionAttributes(Map<String, String> sessionAttributes) {
+	public void setSessionAttributes(Map<String, Object> sessionAttributes) {
 		this.sessionAttributes = sessionAttributes;
 	}
 

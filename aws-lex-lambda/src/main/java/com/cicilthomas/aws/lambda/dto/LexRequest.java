@@ -6,14 +6,14 @@ public class LexRequest {
 	private String messageVersion;
 	private String invocationSource;
 	private String userId;
-	private Map<String,String> sessionAttributes;
+	private Map<String,Object> sessionAttributes;
 	private Bot bot;
 	private CurrentIntent currentIntent;
 
 	public LexRequest() {}
 	
 	public LexRequest(String messageVersion, String invocationSource,
-			String userId, Map<String, String> sessionAttributes, Bot bot,
+			String userId, Map<String, Object> sessionAttributes, Bot bot,
 			CurrentIntent currentIntent) {
 		super();
 		this.messageVersion = messageVersion;
@@ -42,10 +42,10 @@ public class LexRequest {
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-	public Map<String, String> getSessionAttributes() {
+	public Map<String, Object> getSessionAttributes() {
 		return sessionAttributes;
 	}
-	public void setSessionAttributes(Map<String, String> sessionAttributes) {
+	public void setSessionAttributes(Map<String, Object> sessionAttributes) {
 		this.sessionAttributes = sessionAttributes;
 	}
 	public Bot getBot() {
