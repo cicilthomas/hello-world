@@ -19,6 +19,6 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "mongoose": "^4.8.2"
+    "mongoose": "^5.8.1"
   }
 }
